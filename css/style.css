@@ -114,7 +114,7 @@ nav ul li a:hover {
 .half__width p {
   margin-bottom: 10px;
   text-align: justify;
-  color: rgb(77, 78, 80);
+  color: #4d4e50;
 }
 
 /* design area css */
@@ -163,11 +163,6 @@ nav ul li a:hover {
   align-items: center;
 }
 
-/* .community__card img {
-  height: 100px;
-  width: 100px;
-} */
-
 .community__card h2 {
   text-align: center;
   font-size: 20px;
@@ -178,6 +173,117 @@ nav ul li a:hover {
 .community__card p {
   text-align: center;
   width: 50%;
+}
+
+/* contact us css */
+#contact__us {
+  background-image: url("../images/contact-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact__us h1 {
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#contact__us input {
+  padding: 20px 10px;
+  outline: 0;
+  border: 0;
+}
+
+#contact__us input:focus {
+  border: 0;
+  outline: 0;
+}
+
+/* download css */
+
+#download__it {
+  height: 100vh;
+  background-color: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.download__it h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+#download__it p {
+  width: 60%;
+  text-align: center;
+  color: #4d4e50;
+  margin: 20px 0;
+}
+
+.download__button {
+  width: 250px;
+  padding: 20px 5px;
+  background-color: #16a085;
+  color: aliceblue;
+  font-weight: 800;
+  outline: 0;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.download__button div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.download__button h5 {
+  font-size: 15px;
+}
+
+.font__awesome_icon {
+  font-size: 20px;
+}
+
+.phone__icon {
+  background-color: #16a085;
+  color: aliceblue;
+  font-weight: 800;
+}
+
+/* footer css */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+#footer__items ul {
+  list-style-type: none;
+}
+
+#footer__items ul li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 2px solid #16a085;
+  font-weight: 800;
+}
+
+#footer__items p {
+  margin-top: 10px;
+  padding-left: 10px;
+  font-weight: 800;
 }
 
 /* button css */
@@ -245,3 +351,26 @@ nav ul li a:hover {
   stroke-dasharray: 196, 543;
   stroke-dashoffset: 437;
 }
+
+/*  
+        <a href="http://marcel-pirnay.be/" class="btn">
+          <svg width="277" height="62">
+            <defs>
+              <linearGradient id="grad1">
+                <stop offset="0%" stop-color="#FF8282" />
+                <stop offset="100%" stop-color="#E178ED" />
+              </linearGradient>
+            </defs>
+            <rect
+              x="5"
+              y="5"
+              rx="25"
+              fill="none"
+              stroke="url(#grad1)"
+              width="266"
+              height="50"
+            ></rect>
+          </svg>
+          <span>Welcome in my world</span>
+        </a>
+ */
