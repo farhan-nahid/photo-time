@@ -48,6 +48,7 @@ nav ul li a:hover {
   font-weight: 600;
   text-align: center;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 #banner__section p {
@@ -71,14 +72,67 @@ nav ul li a:hover {
 .brand__button:hover {
   background-color: aliceblue;
   color: #16a085;
-  border: #16a085;
+  border: 3px solid #16a085;
   cursor: pointer;
 }
 
 #social__links {
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 #social__links img {
+  margin-left: 20px;
+}
+
+/* about us css  */
+
+#about__us {
+  background-color: #f5f6f7;
+  height: 100vh;
+}
+
+.flex__area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.half__width {
+  width: 40%;
+  margin-left: 7%;
+  margin-right: 2%;
+}
+
+.half__width h2 {
+  font-size: 20px;
+  color: #16a085;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.half__width p {
+  margin-bottom: 10px;
+  text-align: justify;
+  color: rgb(77, 78, 80);
+}
+
+/* design area css */
+
+#design__area {
+  height: 100vh;
+  background-color: #fff;
+}
+
+#design__area h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.arrow__image {
+  margin-top: 40px;
+}
+
+.arrow__image img:nth-child(end) {
   margin-left: 20px;
 }
