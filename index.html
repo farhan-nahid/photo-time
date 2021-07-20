@@ -131,7 +131,10 @@
       <!-- contact us part start -->
       <section id="contact__us">
         <h1>Subscribe us to Community</h1>
-        <input type="email" placeholder="Your Email" autocomplete="off" />
+        <div class="email__input">
+          <input type="email" placeholder="Your Email" autocomplete="off" />
+          <button class="check__icon"><i class="fas fa-check"></i></button>
+        </div>
       </section>
       <!-- contact us part end -->
 
@@ -147,15 +150,19 @@
         <div>
           <button class="download__button">
             <div>
-              <h5>Apple Store</h5>
-              <h5><i class="fab fa-apple font__awesome_icon"></i></h5>
+              <h5 class="version__name">Apple Store</h5>
+              <h5 class="version__icon">
+                <i class="fab fa-apple font__awesome_icon"></i>
+              </h5>
             </div>
           </button>
           <button class="download__button">
-            play Store
-            <span class="phone__icon"
-              ><i class="fab fa-android font__awesome_icon"></i
-            ></span>
+            <div>
+              <h5 class="version__name">play Store</h5>
+              <h5 class="version__icon">
+                <i class="fab fa-android font__awesome_icon"></i>
+              </h5>
+            </div>
           </button>
         </div>
       </section>

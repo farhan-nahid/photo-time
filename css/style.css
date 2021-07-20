@@ -196,6 +196,20 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
+.email__input {
+  display: flex;
+}
+
+.check__icon {
+  background-color: #0a5849;
+  color: aliceblue;
+  font-weight: 800;
+  height: 100%;
+  width: 50px;
+  border: 0;
+  outline: 0;
+}
+
 #contact__us input {
   padding: 20px 10px;
   outline: 0;
@@ -231,11 +245,12 @@ nav ul li a:hover {
 }
 
 .download__button {
+  margin-right: 30px;
   width: 250px;
-  padding: 20px 5px;
   background-color: #16a085;
   color: aliceblue;
   font-weight: 800;
+  cursor: pointer;
   outline: 0;
   border: 0;
   text-transform: uppercase;
@@ -247,6 +262,7 @@ nav ul li a:hover {
 }
 
 .download__button h5 {
+  padding: 20px 5px;
   font-size: 15px;
 }
 
@@ -254,10 +270,16 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
-.phone__icon {
-  background-color: #16a085;
+.version__name {
+  margin-left: 20px;
+}
+
+.version__icon {
+  background-color: #0a5849;
   color: aliceblue;
   font-weight: 800;
+  height: 100%;
+  width: 50px;
 }
 
 /* footer css */
