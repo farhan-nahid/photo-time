@@ -216,7 +216,6 @@ nav ul li a:hover {
   background-image: url("../images/contact-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   height: 100vh;
   display: flex;
   flex-direction: column;
