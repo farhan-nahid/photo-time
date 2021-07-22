@@ -357,6 +357,39 @@ footer {
   font-weight: 800;
 }
 
+/* responsive area */
+
+@media only screen and (max-width: 788px) {
+  #about__us {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+
+  #design__area {
+    gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .design__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .community__all__cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+
+  .download__button {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 50px;
+  }
+}
+
 /* button css */
 
 .btn {
