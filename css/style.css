@@ -9,11 +9,12 @@ header {
   background-image: url("../images/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 800px;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
 nav {
@@ -88,40 +89,70 @@ nav ul li a:hover {
 /* about us css  */
 
 #about__us {
+  padding: 50px 10%;
   background-color: #f5f6f7;
-  height: 100vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.flex__area {
+.about__content {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.half__width {
-  width: 40%;
-  margin-left: 7%;
-  margin-right: 2%;
-}
-
-.half__width h2 {
+.about__content h2 {
   font-size: 20px;
   color: #16a085;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 
-.half__width p {
+.about__content p {
   margin-bottom: 10px;
   text-align: justify;
   color: #4d4e50;
+  width: 80%;
+}
+
+.about__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* design area css */
 
 #design__area {
-  height: 100vh;
+  padding: 50px 10%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
   background-color: #fff;
+}
+
+.design__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.design__content h2 {
+  font-size: 20px;
+  color: #16a085;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.design__content p {
+  margin-bottom: 10px;
+  text-align: justify;
+  color: #4d4e50;
+  width: 80%;
 }
 
 #design__area h6 {
@@ -140,21 +171,26 @@ nav ul li a:hover {
 /* community part css */
 
 #our__community {
-  height: 100vh;
   background-color: #f5f6f7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
-.arrow {
-  float: right;
+.community__area {
+  padding: 50px 10%;
+}
+
+.community__arrow {
+  display: flex;
+  justify-content: end;
+}
+
+.community__arrow img {
+  margin-right: 20px;
 }
 
 .community__all__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .community__card {
@@ -180,6 +216,7 @@ nav ul li a:hover {
   background-image: url("../images/contact-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -187,7 +224,11 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-#contact__us h1 {
+.contact__content {
+  padding: 0 10%;
+}
+
+.contact__content h1 {
   color: aliceblue;
   font-weight: 600;
   text-align: center;
@@ -198,6 +239,7 @@ nav ul li a:hover {
 
 .email__input {
   display: flex;
+  justify-content: center;
 }
 
 .check__icon {
@@ -208,15 +250,16 @@ nav ul li a:hover {
   width: 50px;
   border: 0;
   outline: 0;
+  padding: 20px 10px;
 }
 
-#contact__us input {
+.contact__content input {
   padding: 20px 10px;
   outline: 0;
   border: 0;
 }
 
-#contact__us input:focus {
+.contact__content input:focus {
   border: 0;
   outline: 0;
 }
@@ -224,20 +267,23 @@ nav ul li a:hover {
 /* download css */
 
 #download__it {
-  height: 100vh;
   background-color: #f5f6f7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
-.download__it h2 {
+.download__content {
+  padding: 50px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download__content h2 {
   text-align: center;
   font-size: 20px;
 }
 
-#download__it p {
+.download__content p {
   width: 60%;
   text-align: center;
   color: #4d4e50;
@@ -266,7 +312,7 @@ nav ul li a:hover {
   font-size: 15px;
 }
 
-.font__awesome_icon {
+.font__awesome__icon {
   font-size: 20px;
 }
 
@@ -285,9 +331,12 @@ nav ul li a:hover {
 /* footer css */
 
 footer {
+  padding: 50px 10%;
+}
+
+#footer__items {
   display: flex;
-  justify-content: space-around;
-  padding: 50px 0;
+  justify-content: space-between;
 }
 
 #footer__items ul {
