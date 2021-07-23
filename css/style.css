@@ -73,7 +73,6 @@ nav ul li a:hover {
 .brand__button:hover {
   box-shadow: 10px -2px 5px 10px #16a0843d;
   color: #edf5f3;
-  /* border: 3px solid #16a085; */
   cursor: pointer;
 }
 
