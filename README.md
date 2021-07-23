@@ -1,4 +1,4 @@
-## [Photo Time](https://farhan-nahid.github.io/photo-time/)
+## [Photo Time](https://ph-photo-time.netlify.app/)
 
 <img src="https://i.ibb.co/chF4yHx/Photo-Time.png" alt="Photo-Time" border="0">
 
